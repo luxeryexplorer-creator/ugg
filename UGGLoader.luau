@@ -36,5 +36,5 @@ end
 Arqel:LaunchJunkie({
     Service = "UNTILTED GYM GAME SCRIPT",
     Identifier = "1152918",
-    Provider = "workink"
+    Provider = "untiltedgymgamescriptluxery"
 })
