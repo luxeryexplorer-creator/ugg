@@ -28,6 +28,11 @@ Arqel.Shop = {
     Link = "jnkie.com"
 }
 
+-- This sets the OnSuccess callback to load your script AFTER key verification
+Arqel.Callbacks.OnSuccess = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/luxeryexplorer-creator/ugg/main/UGGAutoAssistant.luau", true))()
+end
+
 Arqel:LaunchJunkie({
     Service = "UNTILTED GYM GAME SCRIPT",
     Identifier = "1152918",
